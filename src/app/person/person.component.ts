@@ -45,4 +45,5 @@ export class PersonComponent implements OnInit {
     this._postService.deletePerson(person.id).subscribe();
     this.fetchDetails();
   }
+
 }
